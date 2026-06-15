@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "organization": "ArgoGraphics",
+  "registryName": "mcp-server-registry",
+  "publishedAt": "2026-06-15",
+  "servers": [
+    {
+      "id": "serena",
+      "name": "Serena MCP",
+      "description": "AIコーディングエージェント向けのMCPツールキット。シンボルレベルのセマンティックなコード検索・編集・リファクタリング・デバッグ機能を提供する「エージェントのためのIDE」。LSP（言語サーバープロトコル）を活用し、40以上のプログラミング言語をサポート。",
+      "repository": "https://github.com/oraios/serena",
+      "manifestUrl": "https://argographics.github.io/mcp-server-registry/servers/serena/server.json",
+      "visibility": "public",
+      "status": "active",
+      "tags": [
+        "mcp",
+        "coding",
+        "lsp",
+        "semantic-analysis",
+        "refactoring",
+        "claude-code",
+        "ai-coding"
+      ]
+    }
+  ]
+}

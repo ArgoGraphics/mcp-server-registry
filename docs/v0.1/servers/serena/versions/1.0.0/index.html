@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "serena",
+  "title": "Serena MCP",
+  "description": "AIコーディングエージェント向けのMCPツールキット。LSPを活用したシンボルレベルのコード検索・編集・リファクタリング・デバッグ機能を提供します。",
+  "version": "1.0.0",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/oraios/serena",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "serena-agent",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "_meta": {
+    "io.github.argographics/approval": {
+      "approved": true,
+      "approvedBy": "ArgoGraphics",
+      "approvalStage": "pilot",
+      "publishedAt": "2026-06-15"
+    }
+  }
+}
