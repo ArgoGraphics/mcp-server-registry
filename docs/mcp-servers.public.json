@@ -21,6 +21,24 @@
         "claude-code",
         "ai-coding"
       ]
+    },
+    {
+      "id": "context7",
+      "name": "Context7 MCP",
+      "description": "最新のライブラリドキュメントとコード例をAIコーディング支援に提供するMCP Server。Remote MCP URLおよびnpm packageの両方に対応。",
+      "repository": "https://github.com/upstash/context7",
+      "manifestUrl": "https://argographics.github.io/mcp-server-registry/v0.1/servers/io.github.upstash/context7/versions/latest",
+      "visibility": "public",
+      "status": "active",
+      "tags": [
+        "mcp",
+        "documentation",
+        "coding",
+        "library-docs",
+        "api-docs",
+        "context7",
+        "upstash"
+      ]
     }
   ]
 }
