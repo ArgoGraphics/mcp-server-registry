@@ -16,7 +16,33 @@
       "version": "1.5.3",
       "transport": {
         "type": "stdio"
-      }
+      },
+      "runtimeHint": "uvx",
+      "runtimeArguments": [
+        {
+          "description": "Select the python version",
+          "name": "-p",
+          "value": "3.13",
+          "type": "named"
+        },
+        {
+          "type": "positional",
+          "value": "start-mcp-server"
+        },
+        {
+          "type": "positional",
+          "value": "--project-from-cwd",
+          "isRequired": false
+        },
+        {
+          "type": "named",
+          "name": "--context",
+          "value": "vscode",
+          "default": "vscode",
+          "isRequired": false,
+          "description": "The name of a markdown file representing Serena's execution context."
+        }
+      ]
     }
   ]
 }
